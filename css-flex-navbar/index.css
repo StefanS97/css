@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding-right: 10px;
+    justify-content: end;
+    list-style: none;
+    background-color: lightblue;
+}
+
+.flex-item {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.flex-item:hover {
+    background-color: blue;
+}
