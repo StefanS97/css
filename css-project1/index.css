@@ -1,0 +1,151 @@
+#header {
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    padding-right: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#header-left > ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+#header-right > ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+.header-item {
+    padding-right: 20px;
+    font-size: 20px;
+    transition: 0.5s;
+    color: rgb(95,89,128);
+}
+
+.header-item:hover {
+    text-decoration: underline;
+    font-size: 25px;
+    cursor: pointer;
+    visibility: visible;
+}
+
+#footer {
+    background-color: rgb(223, 223, 223);
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+
+#footer:hover {
+    cursor: none;
+}
+
+.footer-paragraph {
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(95,89,128);
+}
+
+.dropdown {
+    background-color: rgb(223, 223, 223);
+    position: absolute;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    top: 50px;
+    left: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    visibility: hidden;
+}
+
+.dropdown > ul {
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.hovered:hover .dropdown {
+    visibility: visible;
+    z-index: 1;
+}
+
+#main {
+    margin: auto;
+    max-width: 1400px;
+    position: relative;
+    top:60px;
+}
+
+img {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.main-div-1 {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.div-div-1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.div-div-1 > input {
+    height: 30px;
+}
+
+.main-item {
+    padding-right: 15px;
+    font-size: 20px;
+    color: rgb(205,30,37);
+    transition: 0.5s;
+}
+
+.main-item:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.main-div-2 {
+    max-width: 1400px;
+}
+
+.imgcart {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.desc {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    transition: 0.5s;
+    color: rgb(205,30,37);
+}
+
+.desc:hover {
+    font-size: 45px;
+    cursor: pointer;
+}
